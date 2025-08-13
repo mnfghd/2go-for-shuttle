@@ -29,7 +29,7 @@ jobs:
 
       - name: Create Shuttle.toml
         run: |
-          echo 'name = "shuttle-app"' > Shuttle.toml
+          echo 'name = "shuttle-0327"' > Shuttle.toml
 
       - name: Deploy to Shuttle
         env:
